@@ -7,6 +7,13 @@ To create the Singularity container, run the command
 bash ./build.sh
 ```
 
+## Example
+```
+singularity exec singularity-mc-4.8.25.sif mc
+```
+
+![Screenshot](/images/screenshot.png)
+
 ---
 [![PSC](http://www.andrew.cmu.edu/user/icaoberg/images/logos/psc.png)](http://www.psc.edu)
 
