@@ -3,19 +3,12 @@ From: alpine:edge
 
 %labels
     AUTHOR icaoberg
-    MAINTAINER icaoberg@psc.edu
-    WEBSITE http://www.andrew.cmu.edu/~icaoberg
+    EMAIL icaoberg@psc.edu
+    SUPPORT help@psc.edu
+    REPOSITORY http://gitub.com/pscedu/singularity-mc
+    COPYRIGHT Copyright © 2021 Pittsburgh Supercomputing Center. All Rights Reserved.  
     VERSION 4.8.25
 
 %post
     apk update
-
-####################################################################################
-%appinstall mc
     apk add mc
-
-%apphelp mc
-    mc --help
-
-%apprun mc
-    mc "$@"
