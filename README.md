@@ -1,9 +1,24 @@
-# singularity-mc
+![Status](https://github.com/pscedu/singularity-mc/actions/workflows/main.yml/badge.svg)
+![Issue](https://img.shields.io/github/issues/pscedu/singularity-mc)
+![forks](https://img.shields.io/github/forks/pscedu/singularity-mc)
+![Stars](https://img.shields.io/github/stars/pscedu/singularity-mc)
+![License](https://img.shields.io/github/license/pscedu/singularity-mc)
 
-Singularity recipe for [mc](https://midnight-commander.org/).
+# singularity-mc
+![Image](https://pbs.twimg.com/media/E5UbuOZXEAMDw1r?format=jpg&name=medium)
+Singularity recipe for [mc](https://github.com/sandialabs/mc).
+
+## Installing the container on Bridges 2
+Copy the
+
+* `SIF` file
+* and the Perl scripts
+
+to `/opt/packages/mc/4.8.25`.
+
+Copy the file `modulefile.lua` to `/opt/modulefiles/mc` as `4.8.25.lua`.
 
 ## Building the image using the recipe
-
 ### To build the image locally
 Run the script `build.sh` to build image locally.
 
@@ -12,21 +27,21 @@ bash ./build.sh
 ```
 
 ### To build the image remotely
-Run the script `rbuild.sh` to build image locally.
+Run the script `rbuild.sh` to build image remotely.
 
 ```
 bash ./rbuild.sh
 ```
 
-## Example
-```
-singularity exec singularity-mc-4.8.25.sif mc
-```
+## To run tests
+To run the available tests, run the command
 
-![Screenshot](/images/screenshot.png)
+```
+bash ./test.sh
+```
 
 ---
 Copyright © 2020-2021 Pittsburgh Supercomputing Center. All Rights Reserved.
 
-[icaoberg](http://www.andrew.cmu.edu/~icaoberg) at the [Pittsburgh Supercomputing
+The [Biomedical Applications Group](https://www.psc.edu/biomedical-applications/) at the [Pittsburgh Supercomputing
 Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).
