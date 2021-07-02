@@ -1,7 +1,9 @@
 #!/bin/bash
 
-VERSION=4.8.25
-IMAGE=singularity-mc-"$VERSION".sif
+# Copyright © 2021 Pittsburgh Supercomputing Center.
+# All Rights Reserved.
+
+IMAGE=singularity-mc-4.8.25.sif
 DEFINITION=Singularity
 
 if [ -f $IMAGE ]; then
@@ -9,3 +11,9 @@ if [ -f $IMAGE ]; then
 fi
 
 sudo singularity build $IMAGE $DEFINITION
+
+if [ -f $IMAGE ]; then
+	exit 0
+else
+	exit 1
+fi
