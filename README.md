@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/github/license/pscedu/singularity-mc)
 
 # singularity-mc
-![Image](https://pbs.twimg.com/media/E5UbuOZXEAMDw1r?format=jpg&name=medium)
+![Image](images/screenshot.png)
 Singularity recipe for [mc](https://github.com/sandialabs/mc).
 
 ## Installing the container on Bridges 2
