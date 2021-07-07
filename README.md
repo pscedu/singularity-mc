@@ -6,6 +6,7 @@
 
 # singularity-mc
 ![Image](images/screenshot.png)
+
 Singularity recipe for [mc](https://github.com/sandialabs/mc).
 
 ## Installing the container on Bridges 2
