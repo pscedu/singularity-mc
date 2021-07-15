@@ -5,7 +5,8 @@
 ![License](https://img.shields.io/github/license/pscedu/singularity-mc)
 
 # singularity-mc
-![Image](images/screenshot.png)
+![Image](https://upload.wikimedia.org/wikipedia/commons/9/9b/Midnight_Commander_4.7.0.9_on_Ubuntu_11.04.png)
+
 Singularity recipe for [mc](https://github.com/sandialabs/mc).
 
 ## Installing the container on Bridges 2
