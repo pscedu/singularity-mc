@@ -13,7 +13,7 @@ Singularity recipe for [mc](https://github.com/sandialabs/mc).
 Copy the
 
 * `SIF` file
-* and the Perl scripts
+* and the `mc` scripts
 
 to `/opt/packages/mc/4.8.25`.
 
