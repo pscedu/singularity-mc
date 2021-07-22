@@ -4,6 +4,7 @@
 -- "URL: https://www.psc.edu/resources/software"
 -- "Category: Other"
 -- "Description: Midnight Commander (also known as mc) is a free cross-platform orthodox file manager and a clone of Norton Commander."
+-- "Keywords: singularity utilities"
 
 whatis("Name: mc")
 whatis("Version: 4.8.25")
