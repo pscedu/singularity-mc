@@ -3,7 +3,7 @@
 VERSION=4.8.25
 PACKAGE=mc
 TOOL=$PACKAGE
-DIRECTORY=/opt/packages/$PACKAGE/$VERSION
+DIRECTORY=$(dirname $0)
 
 STORAGES=(/ocean /bil /hive /local)
 
