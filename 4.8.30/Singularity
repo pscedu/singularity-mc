@@ -13,3 +13,6 @@ From: alpine:edge
     apk update
     apk upgrade
     apk add mc
+
+%runscript
+    mc "$@"

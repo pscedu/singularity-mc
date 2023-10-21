@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Copyright © 2021-2022 Pittsburgh Supercomputing Center.
+# Copyright © 2021-2023 Pittsburgh Supercomputing Center.
 # All Rights Reserved.
 
 IMAGE=singularity-mc-4.8.30.sif
