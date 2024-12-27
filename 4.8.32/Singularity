@@ -7,7 +7,7 @@ From: alpine:edge
     SUPPORT help@psc.edu
     REPOSITORY http://gitub.com/pscedu/singularity-mc
     COPYRIGHT Copyright © 2021-2024 Pittsburgh Supercomputing Center. All Rights Reserved. 
-    VERSION 4.8.33
+    VERSION 4.8.32
 
 %post
     apk update

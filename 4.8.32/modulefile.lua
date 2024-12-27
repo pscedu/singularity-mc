@@ -1,12 +1,12 @@
 --
--- mc 4.8.33 modulefile
+-- mc 4.8.32 modulefile
 --
 -- "URL: https://www.psc.edu/resources/software"
 -- "Category: Other"
 -- "Description: Midnight Commander (also known as mc) is a free cross-platform orthodox file manager and a clone of Norton Commander."
 
 whatis("Name: mc")
-whatis("Version: 4.8.33")
+whatis("Version: 4.8.32")
 whatis("Category: Other")
 whatis("Description: Midnight Commander (also known as mc) is a free cross-platform orthodox file manager and a clone of Norton Commander.")
 
@@ -15,11 +15,11 @@ GNU Midnight Commander is a visual file manager, licensed under GNU General Publ
 
 To load the module, type
 
-> module load mc/4.8.33
+> module load mc/4.8.32
 
 To unload the module, type
 
-> module unload mc/4.8.33
+> module unload mc/4.8.32
 
 Documentation
 -------------
@@ -33,6 +33,6 @@ Tools included in this module are
 ]])
 
 local package = "mc"
-local version = "4.8.33"
+local version = "4.8.32"
 local base    = pathJoin("/opt/packages",package,version)
 prepend_path("PATH", base)
